@@ -25,6 +25,13 @@ class UsersController < ApplicationController
     end
   end
 
+  def show
+  end
+
+
+  def edit
+  end
+
 
   def auto_login
     render json: @user
